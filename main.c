@@ -12,7 +12,6 @@ void stud_sort_name()
     int swapped;
     STUDENT *p;
     STUDENT *last = NULL;
-
     do
      {
         swapped = 0;
@@ -33,16 +32,13 @@ void stud_sort_name()
     } while (swapped);
     printf("List sorted by Name!\n");
 }
-
 void stud_sort_per() 
 {
     if (!head || !head->next)
         return;
-
     int swapped;
     STUDENT *p;
     STUDENT *last = NULL;
-
     do 
     {
         swapped = 0;
@@ -63,7 +59,6 @@ void stud_sort_per()
     } while (swapped);
     printf("List sorted by Percentage!\n");
 }
-
 void stud_free() 
 {
     STUDENT *p = head;
@@ -75,14 +70,13 @@ void stud_free()
     }
     head = NULL;
 }
-
 int main() 
 {
     char ch;
     stud_load();
 
     do {
-        printf("\n**** STUDENT RECORD MENU ****\n\n");
+        printf("\nSTUDENT RECORD MENU \n\n");
         printf("A/a : Add New Record\n");
         printf("D/d : Delete a Record\n");
         printf("S/s : Show the List\n");

@@ -1,0 +1,101 @@
+MINI PROJECT  
+STUDENT RECORD MANAGEMENT SYSTEM
+Objective
+Create a program called student by combining multiple source files such as:
+•	stud_add.c
+•	stud_del.c
+•	stud_show.c
+•	stud_mod.c
+•	stud_save.c
+When the program runs, it should display the following menu:
+**** STUDENT RECORD MENU ****
+
+A/a : Add New Record
+D/d : Delete a Record
+S/s : Show the List
+M/m : Modify a Record
+V/v : Save
+T/t : Sort the List
+E/e : Exit
+
+Enter Your Choice:
+
+1. Add New Record (stud_add.c)
+Create a function stud_add().
+Requirements:
+1.	This function should be called when the user selects A/a.
+2.	Dynamically create a new node to store:
+•	Roll Number
+•	Name
+•	Percentage
+3.	Add the new node to a Singly Linked List.
+4.	Roll number should be automatically assigned:
+•	Smallest available positive number
+•	No duplicates allowed
+5.	User must enter:
+•	Student Name
+•	Percentage
+
+2. Delete Record (stud_del.c)
+Create a function stud_del().
+Submenu:
+R/r : Delete using Roll Number
+N/n : Delete using Name
+
+Enter Your Choice:
+Requirements:
+•	If Roll Number is selected → delete directly
+•	If Name is selected → show all matching records and ask for roll number to delete
+
+3. Show Records (stud_show.c)
+Create a function stud_show().
+Requirement:
+Display all records in tabular format:
+--------------------------------------
+Roll No     Name         Percentage
+--------------------------------------
+1           Arun         85.5
+2           Priya        91.0
+--------------------------------------
+
+4. Modify Record (stud_mod.c)
+Step 1: Search Record
+R/r : Roll Number
+N/n : Name
+P/p : Percentage
+
+Enter Your Choice:
+Requirements:
+•	Roll number → directly modify if found
+•	Name/Percentage → show matching records, then ask roll number
+Step 2: Modify Field
+N/n : Name
+P/p : Percentage
+
+Enter Your Choice:
+
+5. Save Records (stud_save.c)
+Requirements:
+•	Save all records into student.dat
+•	Load data from student.dat when program starts
+•	Save whenever user selects V/v
+
+6. Sort Records
+When user selects T/t, display:
+N/n : Sort by Name
+P/p : Sort by Percentage
+
+Enter Your Choice:
+Requirements:
+•	Sort linked list by name
+•	Sort linked list by percentage
+
+7. Exit
+When user selects E/e, display:
+S/s : Save and Exit
+E/e : Exit Without Saving
+
+Enter Your Choice:
+Requirements:
+•	S/s → Save and Exit
+•	E/e → Exit without saving

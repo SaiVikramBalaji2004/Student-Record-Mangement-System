@@ -64,3 +64,16 @@ Records are stored in `student.dat` (binary format). Data is loaded automaticall
 - Binary file I/O (`fread`/`fwrite`)
 - Bubble sort on linked list
 
+- ## Screenshots
+
+| Feature | Screenshot |
+|---------|------------|
+| Main Menu | `screenshots/menu.png` |
+| Add Record | `screenshots/add.png` |
+| Show Records | `screenshots/show.png` |
+| Delete Record | `screenshots/delete.png` |
+| Modify Record | `screenshots/modify.png` |
+| Sort Records | `screenshots/sort.png` |
+| Save & Exit | `screenshots/exit.png` |
+
+

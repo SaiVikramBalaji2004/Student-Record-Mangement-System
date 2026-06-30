@@ -68,12 +68,12 @@ Records are stored in `student.dat` (binary format). Data is loaded automaticall
 
 | Feature | Screenshot |
 |---------|------------|
-| Main Menu     | <img align="right" width="380" src="">  |
-| Add Record    | <img align="right" width="380" src=""/> |
-| Show Records  | <img align="right" width="380" src=""/> |
-| Modify Record | <img align="right" width="380" src=""/> |
-| Sort Records  | <img align="right" width="380" src=""/> |
-| Save & Exit   | <img align="right" width="380" src=""/> |
+| Main Menu     | <img align="right" width="380" src="https://github.com/SaiVikramBalaji2004/Student-Record-Mangement-System/blob/58ffd50e698a93824618da35f615d295899e5b32/main.png">  |
+| Add Record    | <img align="right" width="380" src="">  |
+| Show Records  | <img align="right" width="380" src="">  |
+| Modify Record | <img align="right" width="380" src="">  |
+| Sort Records  | <img align="right" width="380" src="">  |
+| Save & Exit   | <img align="right" width="380" src="">  |
 
 
 

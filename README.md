@@ -68,11 +68,13 @@ Records are stored in `student.dat` (binary format). Data is loaded automaticall
 
 | Feature | Screenshot |
 |---------|------------|
-| Main Menu | `main.png` |
-| Add Record | `add.png` |
-| Show Records | `show.png` |
-| Modify Record | `modify.png` |
-| Sort Records | `sort.png` |
-| Save & Exit | `exit.png` |
+| Main Menu     | <img align="right" width="380" src="">  |
+| Add Record    | <img align="right" width="380" src=""/> |
+| Show Records  | <img align="right" width="380" src=""/> |
+| Modify Record | <img align="right" width="380" src=""/> |
+| Sort Records  | <img align="right" width="380" src=""/> |
+| Save & Exit   | <img align="right" width="380" src=""/> |
+
+
 
 

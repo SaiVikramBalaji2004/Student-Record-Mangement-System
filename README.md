@@ -69,11 +69,10 @@ Records are stored in `student.dat` (binary format). Data is loaded automaticall
 | Feature | Screenshot |
 |---------|------------|
 | Main Menu | `main.png` |
-| Add Record | `screenshots/add.png` |
-| Show Records | `screenshots/show.png` |
-| Delete Record | `screenshots/delete.png` |
-| Modify Record | `screenshots/modify.png` |
-| Sort Records | `screenshots/sort.png` |
-| Save & Exit | `screenshots/exit.png` |
+| Add Record | `add.png` |
+| Show Records | `show.png` |
+| Modify Record | `modify.png` |
+| Sort Records | `sort.png` |
+| Save & Exit | `exit.png` |
 
 

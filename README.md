@@ -29,7 +29,7 @@ A C program to manage student records using a singly linked list with persistent
 Requires a C compiler (GCC, MinGW, MSVC, etc.):
 
 ```bash
-gcc -o student main.c stud_add.c stud_del.c stud_show.c stud_mod.c stud_save.c
+cc  main.c stud_add.c stud_del.c stud_show.c stud_mod.c stud_save.c
 ```
 
 ## Usage

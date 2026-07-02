@@ -26,17 +26,19 @@ A C program to manage student records using a singly linked list with persistent
 
 ## Compilation
 
-Requires a C compiler (GCC, MinGW, MSVC, etc.):
+You can compile the project by first generating the object files (`.o`) for each source file, and then linking them together into a final executable.
 
-```bash
-cc  main.c stud_add.c stud_del.c stud_show.c stud_mod.c stud_save.c
-```
+### Step 1: Compile source files into object files
 
-## Usage
+cc -c main.c stud_add.c stud_del.c stud_show.c stud_mod.c stud_save.c
 
-```bash
-./student
-```
+### Step 2: Compile object files into "student.exe" executable file
+
+ gcc *.o -o student.exe
+
+### Step 3: after compile all object files into executable file "run comand for exe file"
+
+./student.exe
 
 Follow the on-screen menu:
 
